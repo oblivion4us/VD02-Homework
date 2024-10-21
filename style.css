@@ -1,6 +1,64 @@
-.card{
-   width: 400px;
-   height: 650px;
-   background-color: burlywood;
-   border-radius: 60px;
+.cards {
+  display: flex;
+  justify-content: space-around; /* Располагает карточки горизонтально с равными отступами */
+}
+
+.card1 {
+  display: flex;
+  flex-direction: column; /* Расположение элементов внутри карточки вертикально */
+  align-items: center; /* Центрирование элементов по горизонтали внутри карточки */
+  background-color: #98FB98;
+  border: 2px solid #000;
+  padding: 10px;
+  border-radius: 10px;
+  width: 400px; /* Вы можете настроить ширину карточек по своему усмотрению */
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column; /* Расположение элементов внутри карточки вертикально */
+  align-items: center; /* Центрирование элементов по горизонтали внутри карточки */
+  background-color: #AFEEEE;
+  border: 2px solid #000;
+  padding: 10px;
+  border-radius: 10px;
+  width: 400px; /* Вы можете настроить ширину карточек по своему усмотрению */
+}
+
+.card3 {
+  display: flex;
+  flex-direction: column; /* Расположение элементов внутри карточки вертикально */
+  align-items: center; /* Центрирование элементов по горизонтали внутри карточки */
+  background-color: #FFDAB9;
+  border: 2px solid #000;
+  padding: 10px;
+  border-radius: 10px;
+  width: 400px; /* Вы можете настроить ширину карточек по своему усмотрению */
+}
+
+.image img {
+   border-radius: 10px;
+   width: 280px;  /* Занимает всю ширину родительского элемента */
+   height: auto; /* Сохраняет пропорции */
+   border: 2px solid #000;
+}
+
+.cards h2 {
+  margin-top: 10px;    /* Уменьшает отступ сверху */
+  margin-bottom: 0px; /* Уменьшает отступ снизу */
+  font-family: "Russo One", sans-serif;
+  font-weight: 18;
+  font-style: normal;
+}
+
+.cards p {
+  font-family: "Play", sans-serif;
+  font-weight: 8;
+  font-style: normal
+}
+
+.card2 p1 {
+  font-family: "Russo One", sans-serif;
+  font-weight: 8;
+  font-style: normal;
 }
